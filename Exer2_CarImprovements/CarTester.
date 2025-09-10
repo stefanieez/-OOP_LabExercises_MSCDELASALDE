@@ -1,0 +1,25 @@
+public class CarTester {
+    public static void main(String[] args) {
+        Car car1 = new Car("Toyota", "Blue", 2020);
+        Car car2 = new Car("Honda", "Red", 2018);
+        Car car3 = new Car("Ford", "Black", 2022);
+        Car car4 = new Car("Chevrolet", "White", 2019);
+        Car car5 = new Car("BMW", "Silver", 2021);
+        Car car6 = new Car("Mercedes", "Gray", 2017);
+        Car car7 = new Car("Nissan", "Green", 2023);
+        Car car8 = new Car("Kia", "Yellow", 2020);
+        Car car9 = new Car("Hyundai", "Orange", 2021);
+        Car car10 = new Car("Mazda", "Purple", 2019);
+
+        car1.displayInfo();
+        car2.displayInfo();
+        car3.displayInfo();
+        car4.displayInfo();
+        car5.displayInfo();
+        car6.displayInfo();
+        car7.displayInfo();
+        car8.displayInfo();
+        car9.displayInfo();
+        car10.displayInfo();
+    }
+}
